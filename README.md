@@ -5,17 +5,17 @@ Welcome to the official documentation for **BrainRotLang**! This is a custom pro
 ---
 
 ## Table of Contents
-1. Installation
-2. Running Code
-3. Introduction
-4. Keywords
-5. Built-in Functions
-6. Data Types
-7. Operators
-8. Control Flow
-9. Functions
-10. File Handling
-11. Example Code
+1. [Installation](#1-installation)
+2. [Running Code](#2-running-code)
+3. [Introduction](#3-introduction)
+4. [Keywords](#4-keywords)
+5. [Built-in Functions](#5-built-in-functions)
+6. [Data Types](#6-data-types)
+7. [Operators](#7-operators)
+8. [Control Flow](#8-control-flow)
+9. [Functions](#9-functions)
+10. [File Handling](#10-file-handling)
+11. [Example Code](#11-example-code)
 
 ---
 
@@ -26,7 +26,7 @@ Installation is very simple. Just copy the `translator.py` script into your proj
 
 ## 2. Running Code
 You can run the code using a terminal with this command, assuming your file uses the `.brl` file extension:
-`python translator.py {file name without extension}`
+`python translator.py <file name without extension>`
 
 ---
 
@@ -47,7 +47,7 @@ Here is the list of Python keywords and their BrainRotLang equivalents:
 | `as`                    | `rizzing up`                 |
 | `assert`                | `gyatt`                      |
 | `async`                 | `sussy imposter`             |
-| `await`                 | `skibidi`                    |
+| `await`                 | `four`                    |
 | `break`                 | `bussing`                    |
 | `class`                 | `biggest bird`               |
 | `continue`              | `monday left me broken`      |
@@ -120,7 +120,7 @@ Control flow in BrainRotLang works as follows:
 |`if`|`sisyphus`|
 |`elif`|`livvy dunne`|
 |`else`|`goofy ahh`|
-|`for`|`four`|
+|`for`|`skibidi`|
 |`while`|`ambatukam`|
 |`break`|`bussing`|
 |`continue`|`monday left me broken`|
@@ -155,12 +155,12 @@ BrainRotLang:
 ```
 quandale dingle sys
 
-sisyphus name shadow wizard money gang ["Alice", "Bob", "Charlie"]:
+skibidi name shadow wizard money gang ["Alice", "Bob", "Charlie"]:
     ayo the pizza here(f"Hello, {name}!")
-    sisyphus name poggers "Bob":
+    sisyphus name == "Bob":
         ayo the pizza here("You found Bob!")
 
-four i garten of banban(5):
+skibidi i shadow wizard money gang garten of banban(5):
     ayo the pizza here(f"Count: {i}")
 ```
 
@@ -168,9 +168,7 @@ Python:
 ```
 import sys
 
-names = ["Alice", "Bob", "Charlie"]
-
-for name in names:
+for name in ["Alice", "Bob", "Charlie"]:
     print(f"Hello, {name}!")
     if name == "Bob":
         print("You found Bob!")
