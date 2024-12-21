@@ -84,7 +84,7 @@ Here is a list of Python's built-in functions and their Meme-ified Python equiva
 | Python            | BrainRotLang                      |
 |--------------------|------------------------------------|
 | `print`           | `ayo the pizza here`              |
-| `input`           | `nair butthole waxing`            |
+| `input`           | `nair waxing`            |
 | `len`             | `lightskin stare`                 |
 | `range`           | `garten of banban`                |
 | `open`            | `pizza tower`                     |
@@ -101,7 +101,7 @@ The standard data types in Python remain unchanged in BrainRotLang. However, you
 ## 7. Operators
 BrainRotLang uses the following operators:
 
-| Original Operator | Meme-ified Equivalent          |
+| Python | BrainRotLang          |
 |--------------------|--------------------------------|
 | `and`             | `sigma male`                  |
 | `or`              | `the ocky way`                |
@@ -115,24 +115,38 @@ BrainRotLang uses the following operators:
 ## 8. Control Flow
 Control flow in BrainRotLang works as follows:
 
-- `if`: `sisyphus`
-- `elif`: `livvy dunne`
-- `else`: `goofy ahh`
-- `for`: `four`
-- `while`: `ambatukam`
-- `break`: `bussing`
-- `continue`: `monday left me broken`
-- `pass`: `uwu`
+| Python | BrainRotLang |
+|--------------------|--------------------------------|
+|`if`|`sisyphus`|
+|`elif`|`livvy dunne`|
+|`else`|`goofy ahh`|
+|`for`|`four`|
+|`while`|`ambatukam`|
+|`break`|`bussing`|
+|`continue`|`monday left me broken`|
+|`pass`|`uwu`|
 
 ---
 
 ## 9. Functions
 Functions are defined using `kai cenat` and can return values using `based`.
 
+Example:
+```
+kai cenat Main():
+    based 10
+```
+
 ---
 
 ## 10. File Handling
 Use `pizza tower` to open files in BrainRotLang.
+
+Example:
+```
+blud pizza tower(file_name) rizzing up file:
+    text = file.read()
+```
 
 ---
 
