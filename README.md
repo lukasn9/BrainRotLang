@@ -21,7 +21,7 @@ Welcome to the official documentation for **BrainRotLang**! This is a custom pro
 ---
 
 ## 1. Installation
-Installation is very simple. Just copy the `translator.py` script into your project folder.
+Installation is very simple. Just copy the `translator.py` and `syntax.json` files into your project folder.
 
 ---
 
