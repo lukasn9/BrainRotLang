@@ -1,61 +1,16 @@
 import re
 import sys
+import json
 
-keyword_mapping = {
-    "no cap": "False",
-    "literally nothing": "None",
-    "big cap": "True",
-    "sigma male": "and",
-    "rizzing up": "as",
-    "gyatt": "assert",
-    "sussy imposter": "async",
-    "four": "await",
-    "bussing": "break",
-    "biggest bird": "class",
-    "monday left me broken": "continue",
-    "kai cenat": "def",
-    "grimace shake": "del",
-    "livvy dunne": "elif",
-    "goofy ahh": "else",
-    "freddy fazbear": "except",
-    "john pork": "finally",
-    "skibidi": "for",
-    "backrooms": "from",
-    "baby gronk": "global",
-    "sisyphus": "if",
-    "quandale dingle": "import",
-    "shadow wizard money gang": "in",
-    "poggers": "is",
-    "fanum tax": "lambda",
-    "delulu": "nonlocal",
-    "rizz": "not",
-    "the ocky way": "or",
-    "uwu": "pass",
-    "t-pose": "raise",
-    "based": "return",
-    "did you pray today": "try",
-    "ambatukam": "while",
-    "blud": "with",
-    "thug shaker": "yield",
-    "not the mosquito again": "not in",
-    "ayo the pizza here": "print",
-    "nair waxing": "input",
-    "lightskin stare": "len",
-    "garten of banban": "range",
-    "pizza tower": "open",
-    "fortnite battle pass": "sum",
-    "goated with the sauce": "type"
-}
-
-def translate_custom_code(custom_code):
+def translate_custom_code(custom_code, keyword_mapping):
     for custom, python in keyword_mapping.items():
         if custom:
             custom_code = re.sub(rf'\b{re.escape(custom)}\b', python, custom_code)
     return custom_code
 
-def execute_custom_code(custom_code):
+def execute_custom_code(custom_code, keyword_mapping):
     try:
-        python_code = translate_custom_code(custom_code)
+        python_code = translate_custom_code(custom_code, keyword_mapping)
         if len(sys.argv) > 2 and sys.argv[2] == "debug":
             print("Translated Python Code:\n", python_code)
         exec(python_code)
@@ -69,11 +24,14 @@ def main():
 
     file_name = sys.argv[1]
 
+    with open("syntax.json", "r") as file:
+        keyword_mapping = json.load(file)
+
     try:
         with open(f"{file_name}.brl", "r") as file:
             custom_code = file.read()
 
-        execute_custom_code(custom_code)
+        execute_custom_code(custom_code, keyword_mapping)
     except FileNotFoundError:
         print(f"Error: File '{file_name}.brl' not found.")
     except Exception as e:

@@ -16,6 +16,7 @@ Welcome to the official documentation for **BrainRotLang**! This is a custom pro
 9. [Functions](#9-functions)
 10. [File Handling](#10-file-handling)
 11. [Example Code](#11-example-code)
+12. [Custom Syntax]()
 
 ---
 
@@ -27,6 +28,7 @@ Installation is very simple. Just copy the `translator.py` script into your proj
 ## 2. Running Code
 You can run the code using a terminal with this command, assuming your file uses the `.brl` file extension:
 `python translator.py <file name without extension>`
+If you suspect an error in the `translator` script, you can run `python translator.py <filename> debug` to print the translated `Python` code to console.
 
 ---
 
@@ -40,7 +42,7 @@ Here is the list of Python keywords and their BrainRotLang equivalents:
 
 | Python | BrainRotLang                                  |
 |--------------------------|-------------------------------|
-| `False`                 | `no cap`                     |
+| `False`                 | `nope`                     |
 | `None`                  | `literally nothing`          |
 | `True`                  | `big cap`                    |
 | `and`                   | `sigma male`                 |
@@ -78,13 +80,38 @@ Here is the list of Python keywords and their BrainRotLang equivalents:
 
 ---
 
-## 5. Built-in Functions
-Here is a list of Python's built-in functions and their Meme-ified Python equivalents:
+## 5. Operators
+Here is a list of Python's operators and their BrainRotLang equivalents:
+
+| Python | BrainRotLang                                  |
+|--------------------------|-------------------------------|
+| `+`                 | `positive rizz`                     |
+| `-`                  | `negative rizz`          |
+| `/`                  | `slice it up`          |
+| `//`                  | `slice deluxe`          |
+| `*`                  | `gyatt flex`          |
+| `**`                  | `super gyatt`          |
+| `%`                  | `leftovers`          |
+| `<`                  | `smol drip`                    |
+| `>`                   | `big drip`                 |
+| `<=`                    | `smol no cap`                 |
+| `>=`                | `big no cap`                      |
+| `=`                 | `get`             |
+| `==`                 | `no cap`                    |
+| `!=`                 | `cap`                    |
+| `+=`                 | `rizz up`                    |
+| `-=`                 | `rizz down`                    |
+
+---
+
+## 6. Built-in Functions
+Here is a list of Python's built-in functions and their BrainRotLang equivalents:
 
 | Python            | BrainRotLang                      |
 |--------------------|------------------------------------|
 | `print`           | `ayo the pizza here`              |
 | `input`           | `nair waxing`            |
+| `read`           | `cooked`            |
 | `len`             | `lightskin stare`                 |
 | `range`           | `garten of banban`                |
 | `open`            | `pizza tower`                     |
@@ -93,12 +120,12 @@ Here is a list of Python's built-in functions and their Meme-ified Python equiva
 
 ---
 
-## 6. Data Types
+## 7. Data Types
 The standard data types in Python remain unchanged in BrainRotLang. However, you can still use the BrainRotLang keywords and functions to work with these data types seamlessly.
 
 ---
 
-## 7. Operators
+## 8. Operators
 BrainRotLang uses the following operators:
 
 | Python | BrainRotLang          |
@@ -112,23 +139,22 @@ BrainRotLang uses the following operators:
 
 ---
 
-## 8. Control Flow
+## 9. Control Flow
 Control flow in BrainRotLang works as follows:
 
-| Python | BrainRotLang |
-|--------------------|--------------------------------|
-|`if`|`sisyphus`|
-|`elif`|`livvy dunne`|
-|`else`|`goofy ahh`|
-|`for`|`skibidi`|
-|`while`|`ambatukam`|
-|`break`|`bussing`|
-|`continue`|`monday left me broken`|
-|`pass`|`uwu`|
+- Python - BrainRotLang
+- `if`-`sisyphus`
+- `elif`-`livvy dunne`
+- `else`-`goofy ahh`
+- `for`-`skibidi`
+- `while`-`ambatukam`
+- `break`-`bussing`
+- `continue`-`monday left me broken`
+- `pass`-`uwu`
 
 ---
 
-## 9. Functions
+## 10. Functions
 Functions are defined using `kai cenat` and can return values using `based`.
 
 Example:
@@ -139,25 +165,26 @@ kai cenat Main():
 
 ---
 
-## 10. File Handling
+## 11. File Handling
 Use `pizza tower` to open files in BrainRotLang.
 
 Example:
 ```
 blud pizza tower(file_name) rizzing up file:
-    text = file.read()
+    text = file.cooked()
 ```
 
 ---
 
-## 11. Example Code
+## 12. Example Code
+Example 1:  
 BrainRotLang:
 ```
 quandale dingle sys
 
 skibidi name shadow wizard money gang ["Alice", "Bob", "Charlie"]:
     ayo the pizza here(f"Hello, {name}!")
-    sisyphus name == "Bob":
+    sisyphus name no cap "Bob":
         ayo the pizza here("You found Bob!")
 
 skibidi i shadow wizard money gang garten of banban(5):
@@ -176,5 +203,45 @@ for name in ["Alice", "Bob", "Charlie"]:
 for i in range(5):
     print(f"Count: {i}")
 ```
+
+Example 2:
+BrainRotLang:
+```
+quandale dingle time
+
+kai cenat countdown(time_sec):
+    ambatukam time_sec:
+        mins, secs get divmod(time_sec, 60)
+        timeformat get '{:02d}:{:02d}'.format(mins, secs)
+        ayo the pizza here(timeformat, end='\r')
+        time.sleep(1)
+        time_sec rizz down 1
+
+    ayo the pizza here("stop")
+
+countdown(5)
+```
+
+Python:
+```
+import time
+
+def countdown(time_sec):
+    while time_sec:
+        mins, secs = divmod(time_sec, 60)
+        timeformat = '{:02d}:{:02d}'.format(mins, secs)
+        print(timeformat, end='\r')
+        time.sleep(1)
+        time_sec -= 1
+
+    print("stop")
+
+countdown(5)
+```
+
+---
+
+## 13. Custom Syntax
+You can edit the BrainRotLang keywords by modifying the `syntax.json` file.
 
 ---
