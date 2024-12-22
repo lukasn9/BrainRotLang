@@ -200,7 +200,7 @@ for i in range(5):
     print(f"Count: {i}")
 ```
 
-Example 2:
+Example 2:  
 BrainRotLang:
 ```
 quandale dingle time
