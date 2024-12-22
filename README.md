@@ -40,83 +40,80 @@ BrainRotLang uses the foundation of Python syntax but replaces keywords and buil
 ## 4. Keywords
 Here is the list of Python keywords and their BrainRotLang equivalents:
 
-| Python | BrainRotLang                                  |
-|--------------------------|-------------------------------|
-| `False`                 | `nope`                     |
-| `None`                  | `literally nothing`          |
-| `True`                  | `big cap`                    |
-| `and`                   | `sigma male`                 |
-| `as`                    | `rizzing up`                 |
-| `assert`                | `gyatt`                      |
-| `async`                 | `sussy imposter`             |
-| `await`                 | `four`                    |
-| `break`                 | `bussing`                    |
-| `class`                 | `biggest bird`               |
-| `continue`              | `monday left me broken`      |
-| `def`                   | `kai cenat`                  |
-| `del`                   | `grimace shake`              |
-| `elif`                  | `livvy dunne`                |
-| `else`                  | `goofy ahh`                  |
-| `except`                | `freddy fazbear`             |
-| `finally`               | `john pork`                  |
-| `for`                   | `four`                       |
-| `from`                  | `backrooms`                  |
-| `global`                | `baby gronk`                 |
-| `if`                    | `sisyphus`                   |
-| `import`                | `quandale dingle`            |
-| `in`                    | `shadow wizard money gang`   |
-| `is`                    | `poggers`                    |
-| `lambda`                | `fanum tax`                  |
-| `nonlocal`              | `delulu`                     |
-| `not`                   | `rizz`                       |
-| `or`                    | `the ocky way`               |
-| `pass`                  | `uwu`                        |
-| `raise`                 | `t-pose`                     |
-| `return`                | `based`                      |
-| `try`                   | `did you pray today`         |
-| `while`                 | `ambatukam`                  |
-| `with`                  | `blud`                       |
-| `yield`                 | `thug shaker`                |
+- Python - BrainRotLang
+- `False`-`nope`
+- `None`-`literally nothing`
+- `True`-`big cap`
+- `and`-`sigma male`
+- `as`-`rizzing up`
+- `assert`-`gyatt`
+- `async`-`sussy imposter`
+- `await`-`four`
+- `break`-`bussing`
+- `class`-`biggest bird`
+- `continue`-`monday left me broken`
+- `def`-`kai cenat`
+- `del`-`grimace shake`
+- `elif`-`livvy dunne`
+- `else`-`goofy ahh`
+- `except`-`freddy fazbear`
+- `finally`-`john pork`
+- `for`-`four`
+- `from`- `backrooms`
+- `global`-`baby gronk`
+- `if`-`sisyphus`
+- `import`-`quandale dingle`
+- `in`-`shadow wizard money gang`
+- `is`-`poggers`
+- `lambda`-`fanum tax`
+- `nonlocal`-`delulu`
+- `not`-`rizz`
+- `or`-`the ocky way`
+- `pass`-`uwu`
+- `raise`-`t-pose`
+- `return`-`based`
+- `try`-`did you pray today`
+- `while`-`ambatukam`
+- `with`-`blud`
+- `yield`-`thug shaker`
 
 ---
 
 ## 5. Operators
 Here is a list of Python's operators and their BrainRotLang equivalents:
 
-| Python | BrainRotLang                                  |
-|--------------------------|-------------------------------|
-| `+`                 | `positive rizz`                     |
-| `-`                  | `negative rizz`          |
-| `/`                  | `slice it up`          |
-| `//`                  | `slice deluxe`          |
-| `*`                  | `gyatt flex`          |
-| `**`                  | `super gyatt`          |
-| `%`                  | `leftovers`          |
-| `<`                  | `smol drip`                    |
-| `>`                   | `big drip`                 |
-| `<=`                    | `smol no cap`                 |
-| `>=`                | `big no cap`                      |
-| `=`                 | `get`             |
-| `==`                 | `no cap`                    |
-| `!=`                 | `cap`                    |
-| `+=`                 | `rizz up`                    |
-| `-=`                 | `rizz down`                    |
+- Python - BrainRotLang
+- `+`-`positive rizz`
+- `-`-`negative rizz`
+- `/`-`slice it up`
+- `//`-`slice deluxe`
+- `*`-`gyatt flex`
+- `**`-`super gyatt`
+- `%`-`leftovers`
+- `<`-`smol drip`
+- `>`-`big drip`
+- `<=`-`smol no cap`
+- `>=`-`big no cap`
+- `=`-`get`
+- `==`-`no cap`
+- `!=`-`cap`
+- `+=`-`rizz up`
+- `-=`-`rizz down`
 
 ---
 
 ## 6. Built-in Functions
 Here is a list of Python's built-in functions and their BrainRotLang equivalents:
 
-| Python            | BrainRotLang                      |
-|--------------------|------------------------------------|
-| `print`           | `ayo the pizza here`              |
-| `input`           | `nair waxing`            |
-| `read`           | `cooked`            |
-| `len`             | `lightskin stare`                 |
-| `range`           | `garten of banban`                |
-| `open`            | `pizza tower`                     |
-| `sum`             | `fortnite battle pass`            |
-| `type`            | `goated with the sauce`           |
+- Python - BrainRotLang
+- `print`-`ayo the pizza here`
+- `input`-`nair waxing`
+- `read`-`cooked`
+- `len`-`lightskin stare`
+- `range`-`garten of banban`
+- `open`-`pizza tower`
+- `sum`-`fortnite battle pass`
+- `type`-`goated with the sauce`
 
 ---
 
@@ -128,14 +125,13 @@ The standard data types in Python remain unchanged in BrainRotLang. However, you
 ## 8. Operators
 BrainRotLang uses the following operators:
 
-| Python | BrainRotLang          |
-|--------------------|--------------------------------|
-| `and`             | `sigma male`                  |
-| `or`              | `the ocky way`                |
-| `not`             | `rizz`                        |
-| `is`              | `poggers`                     |
-| `in`              | `shadow wizard money gang`    |
-| `not in`          | `not the mosquito again`      |
+- Python - BrainRotLang
+- `and`-`sigma male`
+- `or`-`the ocky way`
+- `not`-`rizz`
+- `is`-`poggers`
+- `in`-`shadow wizard money gang`
+- `not in`-`not the mosquito again`
 
 ---
 
